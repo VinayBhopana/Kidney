@@ -1,0 +1,24 @@
+FAST CPU RESNET50 BASELINE
+============================================================
+
+Method: Frozen ResNet50 feature extractor + linear classifier
+
+Input: 512x512 grayscale
+Model input: 224x224, 3 identical channels
+Backbone: ImageNet-pretrained ResNet50
+Feature dimension: 2048
+Classifier: Linear 2048 -> 2
+
+Best epoch: 10
+Best Val AUC: 0.998651
+
+Accuracy: 0.993636
+Precision: 0.990180
+Sensitivity: 0.996705
+Specificity: 0.990769
+F1-score: 0.993432
+ROC-AUC: 0.999838
+
+Confusion Matrix:
+[[644   6]
+ [  2 605]]

@@ -1,0 +1,21 @@
+ECCKD EFFICIENTNET-B0 + SWIN-TINY ENSEMBLE
+=================================================================
+
+VALIDATION-SELECTED WEIGHTS
+EfficientNet-B0 weight: 0.35
+Swin-Tiny weight: 0.65
+Validation ROC-AUC: 0.989082
+
+FINAL TEST RESULTS
+Accuracy: 0.968510
+Precision: 0.988889
+Sensitivity: 0.955705
+Specificity: 0.985637
+F1-score: 0.972014
+ROC-AUC: 0.982796
+
+Confusion Matrix:
+[[549   8]
+ [ 33 712]]
+
+TN=549, FP=8, FN=33, TP=712

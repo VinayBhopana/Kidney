@@ -1,0 +1,20 @@
+{
+    "model": "ResNet50",
+    "pretrained": true,
+    "pretraining": "ImageNet",
+    "training_strategy": "Frozen ResNet50 + Linear Classifier",
+    "stored_image_size": "512x512",
+    "model_input_size": "224x224",
+    "feature_dimension": 2048,
+    "test_images": 1257,
+    "accuracy": 0.9936356404136834,
+    "precision": 0.9901800327332242,
+    "sensitivity": 0.9967051070840197,
+    "specificity": 0.9907692307692307,
+    "f1": 0.993431855500821,
+    "roc_auc": 0.9998377898872133,
+    "TN": 644,
+    "FP": 6,
+    "FN": 2,
+    "TP": 605
+}

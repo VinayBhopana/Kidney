@@ -1,0 +1,22 @@
+ECCKD RESNET18 BASELINE
+============================================================
+
+Best epoch: 10
+Best validation AUC: 0.980255
+
+Accuracy: 0.930876
+Precision: 0.982327
+Sensitivity: 0.895302
+Specificity: 0.978456
+F1-score: 0.936798
+ROC-AUC: 0.975167
+
+Confusion Matrix:
+[[545  12]
+ [ 78 667]]
+
+TN=545, FP=12, FN=78, TP=667
+
+Total parameters: 11,177,538
+Trainable parameters: 1,026
+Training time: 281.16 minutes

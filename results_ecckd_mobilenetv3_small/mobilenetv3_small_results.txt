@@ -1,0 +1,18 @@
+ECCKD MOBILENETV3-SMALL BASELINE
+============================================================
+
+Best epoch: 8
+Best validation AUC: 0.985319
+
+Accuracy: 0.954685
+Precision: 0.984463
+Sensitivity: 0.935570
+Specificity: 0.980251
+F1-score: 0.959394
+ROC-AUC: 0.978808
+
+Confusion Matrix:
+[[546  11]
+ [ 48 697]]
+
+TN=546, FP=11, FN=48, TP=697

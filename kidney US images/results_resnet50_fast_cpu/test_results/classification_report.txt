@@ -1,0 +1,8 @@
+              precision    recall  f1-score   support
+
+      Normal     0.9969    0.9908    0.9938       650
+       stone     0.9902    0.9967    0.9934       607
+
+    accuracy                         0.9936      1257
+   macro avg     0.9935    0.9937    0.9936      1257
+weighted avg     0.9937    0.9936    0.9936      1257

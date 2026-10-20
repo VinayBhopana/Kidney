@@ -1,0 +1,9 @@
+image_path,true_label,true_class,predicted_label,predicted_class,probability_stone,correct
+D:\Kidney\kidney US images\dataset_preprocessed_grayscale_512\test\Normal\Normal_1041.png,0,Normal,1,stone,0.5094742178916931,False
+D:\Kidney\kidney US images\dataset_preprocessed_grayscale_512\test\Normal\Normal_2085.png,0,Normal,1,stone,0.5158546566963196,False
+D:\Kidney\kidney US images\dataset_preprocessed_grayscale_512\test\Normal\Normal_243.png,0,Normal,1,stone,0.6314470767974854,False
+D:\Kidney\kidney US images\dataset_preprocessed_grayscale_512\test\Normal\Normal_2717.png,0,Normal,1,stone,0.6298046112060547,False
+D:\Kidney\kidney US images\dataset_preprocessed_grayscale_512\test\Normal\Normal_2834.png,0,Normal,1,stone,0.5212621092796326,False
+D:\Kidney\kidney US images\dataset_preprocessed_grayscale_512\test\Normal\Normal_3958.png,0,Normal,1,stone,0.5238237977027893,False
+D:\Kidney\kidney US images\dataset_preprocessed_grayscale_512\test\stone\Stone_1324.png,1,stone,0,Normal,0.4391475319862366,False
+D:\Kidney\kidney US images\dataset_preprocessed_grayscale_512\test\stone\Stone_564.png,1,stone,0,Normal,0.4691128432750702,False

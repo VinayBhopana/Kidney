@@ -1,0 +1,22 @@
+ECCKD SWIN-TINY BASELINE
+============================================================
+
+Best epoch: 8
+Best validation AUC: 0.988070
+
+Accuracy: 0.963902
+Precision: 0.982044
+Sensitivity: 0.954362
+Specificity: 0.976661
+F1-score: 0.968005
+ROC-AUC: 0.984177
+
+Confusion Matrix:
+[[544  13]
+ [ 34 711]]
+
+TN=544, FP=13, FN=34, TP=711
+
+Total parameters: 27,520,892
+Trainable parameters: 1,538
+Training time: 214.95 minutes

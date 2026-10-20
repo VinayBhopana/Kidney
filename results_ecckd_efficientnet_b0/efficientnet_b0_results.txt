@@ -1,0 +1,22 @@
+ECCKD EFFICIENTNET-B0 BASELINE
+============================================================
+
+Best epoch: 10
+Best validation AUC: 0.985161
+
+Accuracy: 0.945469
+Precision: 0.968056
+Sensitivity: 0.935570
+Specificity: 0.958707
+F1-score: 0.951536
+ROC-AUC: 0.976928
+
+Confusion Matrix:
+[[534  23]
+ [ 48 697]]
+
+TN=534, FP=23, FN=48, TP=697
+
+Total parameters: 4,010,110
+Trainable parameters: 2,562
+Training time: 69.60 minutes

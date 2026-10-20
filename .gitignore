@@ -1,0 +1,43 @@
+# Local environments and editor files
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ipynb_checkpoints/
+.vscode/
+
+# Raw, processed, and split image datasets
+**/*.jpg
+**/*.jpeg
+**/*.png
+**/*.bmp
+**/*.webp
+**/train/
+**/test/
+**/val/
+**/valid/
+**/dataset_group_split/
+**/dataset_preprocessed_grayscale_224/
+**/dataset_preprocessed_grayscale_512/
+**/my dataset deduplicated/
+**/my dataset final 512x512(implemented)/
+**/near_duplicate_review/
+**/preprocessing_preview/
+**/audit_visualizations/
+
+# Archives and trained model artifacts
+*.zip
+*.pth
+*.pt
+*.onnx
+*.ckpt
+*.safetensors
+
+# Generated runtime and experiment artifacts
+wandb/
+mlruns/
+*.log
+*.tmp

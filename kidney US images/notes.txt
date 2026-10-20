@@ -1,0 +1,35 @@
+py -3.14 -m venv .venv
+.venv\Scripts\Activate.ps1
+---------------------------------------------------------------
+
+
+using image hashing distance to do the split - cuz we dont want random splitting - to avoid duplicates - and the similar images shd go into the same group
+this is done to have a clean TT split so that is beneficial for our model training 
+70/15/15 split 
+
+
+--------------------------------------------------------------------
+
+checking diff preprocessing methods to find the best one 
+greyscale , bilateral filter , clahe , bilateral+clahe 
+
+Grayscale: preserves the original ultrasound signal best.
+CLAHE: improves local renal contrast noticeably, but also amplifies speckle/noise.
+Bilateral: reduces some noise, but the effect is mild and may smooth small echogenic stone features.
+Bilateral + CLAHE: visually strong, but I would not make this the default yet because denoising can potentially suppress small calculi.
+
+Baseline = grayscale only
+Preprocessing ablation = CLAHE
+
+The key sequence was 9,416 original → 1,040 exact duplicates removed → 8,376 retained → strict near-duplicate grouping → group-aware 70/15/15 split → grayscale → 224×224.
+
+_-----------------------------------------------
+
+for now using cpu not gpu cuda 
+
+
+
+
+
+
+
